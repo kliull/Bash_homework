@@ -6,7 +6,7 @@ maxsize=0
 maxfile=""
 
 for file in $(find "$way" -type f); do
-    countfiles=$((countfiles + 1));
+    countfiles=$((countfiles + 1))
 done
 for file in $(find "$way" -type d); do
     countdirectory=$((countdirectory + 1));
