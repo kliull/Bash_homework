@@ -1,4 +1,5 @@
 #!/bin/bash
-for file in .; do
-    chmod 640 $file
+way=$1
+for file in $(find "$way" -type f); do
+    chmod 640 "$file"
 done
