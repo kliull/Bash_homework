@@ -19,6 +19,6 @@ for file in $(find "$way" -type f); do
     maxfile=$file
   fi
 done
-echo $countfiles
-echo $countdirectory
+echo "Files: $countfiles"
+echo "Dirs: $countdirectory"
 echo $maxfile $maxsize
