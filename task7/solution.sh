@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name ".+" -type f | sort
+find -name ".*" ! -name "." ! -name ".." \( -type f -o -type d \) | sort
