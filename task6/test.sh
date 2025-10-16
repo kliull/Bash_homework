@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-output=$(../solution.sh)
+output=$(./solution.sh)
 
 echo $output
 
